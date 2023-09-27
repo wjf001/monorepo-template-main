@@ -31,7 +31,7 @@ Update your answers to the following questions, make sure to commit this file an
 Note: You do not 'have' a constructor, but you construct the object in the *instance* member function where you will create an object.  
 Hint: Look at Lecture 3 slides for an example of creating a Singleton in Python
 
-1. Are singleton's in Python thread safe? Why or why not?
+1. Are singleton's in Python thread safe? Why or why not?\
    *Singleton is not thread-safe, you will have to add a lock, which may slow down application. It is also hard to tell which thread last modified singleton*
 
 *edit the code directly*  

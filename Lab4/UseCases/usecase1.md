@@ -6,31 +6,33 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: *Set Window and Canvas Dimensions*
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: *User*
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: *User set the dimensions of a window and a drawable canvas to be 600 pixels wide and 400 pixels high.*
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: *The program must be running and in a responsive state.*
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: *The User initiates the application.*
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario 1**: *The User launches the application.*
+
+**Scenario 2**: *The app initializes a default window and canvas with dimensions set to 600x400 pixels.*
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: *In unexpected system error, the app notifies the User and restart.*
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: *High-priority*
 
-**When available**: *the targeted release that covers this use case*
+**When available**: *First release*
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: *The user start the app.*
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: *N/A*
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: *N/A*
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: *We may need to implement more size choice in the future, and users can change size in the  'setting ' later.*
 
 <hr>
 

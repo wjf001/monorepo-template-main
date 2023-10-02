@@ -6,31 +6,31 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: *Drag and Draw with Left-Click*
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: *User*
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: *To allow a pixel color change wherever the mouse is located.*
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: *The program must be running and in a responsive state.*
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: *(1) Select 'Pencil' function on the tool bar. (2) Press and not release the left button of user's mouse on the canvas.*
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: *A user will drag their mouse to the tool bar to select 'Pencil' function. When the mouse is pressed and a user left-clicks (i.e. on the pressed event, not released) a pixel color will change wherever the mouse is located on the canvas. *
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: *If the app have an unexpected error, it will provides an error message and allows the User to save the work and restart the app.*
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: *High-priority.*
 
-**When available**: *the targeted release that covers this use case*
+**When available**: *First release*
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: *The primary actor communicates through the mouse. The system is responsible for maintaining focus of the window when the user clicks, and should respond within 1 second of any keyboard event. The user is responsible for all other input.*
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: *N/A*
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: *N/A*
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: *We may need to implement 'Brush' functionality in the future, and give users more choice for thier future creation.*
 
 <hr>
 
